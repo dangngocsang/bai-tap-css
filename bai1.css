@@ -1,0 +1,108 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    /* Thêm các thuộc tính CSS khác tùy theo thiết kế của bạn */
+}
+
+.logo1 {
+    float: left;
+    /* Đặt logo bên trái */
+}
+
+nav ul {
+    list-style: none;
+    padding: 6;
+    margin: 2;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 10px;
+    /* Khoảng cách giữa các mục menu */
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+    /* Xóa khoảng cách của mục menu cuối cùng */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    /* Màu chữ của menu */
+    /* Thêm các thuộc tính CSS khác cho menu */
+}
+
+nav ul li a.special1 {
+    color: yellow;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Thêm các thuộc tính CSS khác tùy theo thiết kế của bạn */
+}
+
+.text-info {
+    /* Định dạng cho thông tin văn bản */
+    /* Ví dụ: */
+    width: 50%;
+    /* Để thông tin văn bản chiếm 50% phần còn lại của header */
+}
+
+.logo2 {
+    /* Định dạng cho logo */
+    /* Ví dụ: */
+    /* Để logo chiếm 30% phần còn lại của header */
+    float: right;
+}
+
+nav ul li a.special2 {
+    color: blue;
+}
+
+.caption {
+    text-align: center;
+    color: blue;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 cột */
+    gap: 20px;
+    /* Khoảng cách giữa các cột và hàng */
+    /* Thêm các thuộc tính CSS khác tùy theo thiết kế của bạn */
+}
+
+.image-wrapper {
+    text-align: center;
+    /* Thêm các thuộc tính CSS khác cho wrapper của hình ảnh */
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2px;
+    /* Chiều cao của container */
+    background-color: #007bff;
+    /* Màu nền xanh */
+}
+
+.custom-button {
+    padding: 4px 8px;
+    font-size: 12px;
+    background-color: #007bff;
+    /* Màu nền xanh */
+    color: #ffffff;
+    /* Màu chữ trắng */
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+    /* Thêm các thuộc tính CSS khác tùy theo thiết kế của bạn */
+}
